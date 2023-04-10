@@ -17,6 +17,11 @@ body{
     height: 25px;
     justify-content: center;  
 }
+.img_google{
+    width: 1.5em;
+    display: block;
+    margin: auto;
+}
 #logo{
     width: 20em;
     height:190px;
