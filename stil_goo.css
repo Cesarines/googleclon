@@ -65,3 +65,55 @@ body{
 #lucky:hover{
     background-color: rgb(231, 133, 133);
 }
+footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%; 
+}
+.fila_seis{  
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    height: 50px; 
+}
+.fila_siete{
+    border-top: 2px solid black;
+    padding-top: 10px;
+    display: flex;
+    height: 50px;   
+}
+.spacio_pie_1{
+    width:15%;
+    font-size: 1em;  
+}
+.spacio_pie_2{
+    width:15%;
+    font-size: 1em;  
+}
+.spacio_pie_3{
+    width:15%;
+    font-size: 1em;  
+}
+.spacio_pie_4{
+    width:30%;
+    font-size: 1em;  
+}
+.spacio_pie{
+    width: 15%;
+}
+.der{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.izq{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
